@@ -10,9 +10,12 @@
     font-weight: bold;
     font-size: 0.85em;
     transition: .3s;
-    padding: 10px 0px 10px 0px; }
+    padding: 10px 0px 10px 0px;
+    text-transform: uppercase; }
+  .header__link_active {
+    color: #26a7e0; }
   .header__link:hover {
-    font-size: 1em; }
+    color: #26a7e0; }
   .header__content {
     background: url(../img/header/bgpng.png) no-repeat, linear-gradient(to right, #262467 0%, #26a7e0 100%), -webkit-linear-gradient(left, #262467 0%, #26a7e0 100%);
     background-position: center 200px;

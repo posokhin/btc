@@ -1,4 +1,5 @@
 .table{
+    border-bottom: 1px solid #d3d3d3;
    
     &__content{
         padding-top: 10px;
@@ -10,6 +11,9 @@
         border-top-left-radius: 4px;
         border-top-right-radius: 4px;
         color: white;
+    }
+    &__top-text{
+        font-size: 1.2em;
     }
 
     &__top-title{
@@ -28,38 +32,33 @@
         align-items: center;
         margin-right: 20px;
     }
-    .fa-dollar-sign{
-        margin-right: 20px;
-        width: 30px;
-        height: 30px;
-        border-radius: 50%;
-        background: white;
-        color: #26a7e0;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
     &__top-Payouts{
-        margin-right: 10px;
+        margin-right: 25px;
     }
     &__top-link{
         color: white;
-        font-size: 0.85em;
+        font-size: 1em;
         transition: .3s;
     }
     &__top-link:hover{
-        font-size: 1em;
         color: #262467;
     }
     &__img{
         width: 11%;
     }
   }
-  thead th{
-  }
-  tbody{
-  }
   td{
       text-align: center;
       width: 100px;
   }
+  .fa-dollar-sign{
+    margin-right: 20px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: white;
+    color: #26a7e0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

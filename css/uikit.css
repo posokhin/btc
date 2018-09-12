@@ -41,7 +41,6 @@ a,
 }
 a:hover,
 .uk-link:hover {
-  color: #26a7e0;
 }
 /* Text-level semantics
  ========================================================================== */
@@ -219,7 +218,6 @@ h3,
 h4,
 h5,
 h6 {
-  margin: 0 0 15px 0;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: normal;
   text-transform: none;
@@ -233,7 +231,6 @@ h6 {
 * + h4,
 * + h5,
 * + h6 {
-  margin-top: 25px;
 }
 /*
  * Sizes
@@ -272,7 +269,6 @@ h6,
  ========================================================================== */
 ul,
 ol {
-  padding-left: 30px;
 }
 /*
  * Reset margin for nested lists
@@ -2893,6 +2889,7 @@ html:not(.uk-touch) .uk-nav-offcanvas ul a:hover {
 .uk-table th,
 .uk-table td {
   padding: 8px 8px;
+  padding-bottom: 20px;
 }
 /*
  * Set alignment

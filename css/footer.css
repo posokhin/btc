@@ -1,9 +1,8 @@
 .footer {
   background-color: #2e3234;
   height: 80px;
-  color: white; 
-  min-width: 1140px;
-}
+  color: white;
+  min-width: 1140px; }
   .footer__text {
     display: flex;
     flex-direction: column;
