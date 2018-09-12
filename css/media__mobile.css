@@ -118,5 +118,33 @@
     .footer__text-site{
         text-align: center;
     }
+    .header__start {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        padding: 10px 0px;
+    }
+    .bar_media{
+        padding: 20px 0px;
+    }
+    .deposits__title{
+        text-align: center;
+    }
+    .deposits__desk{
+        text-align: center;
+    }
+    .form__wrap{
+        width: 100%;
+    }
+    .form__item-input{
+        width: 200px;
+    }
+    .form__item-submit{
+        padding: 15px 10px;
+    }
+    .aff__desk{
+        text-align: center;
+    }
 
 }
