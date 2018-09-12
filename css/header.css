@@ -42,9 +42,8 @@
     color: white;
     font-weight: bold;
     text-align: center;
-    padding-top: 20px; 
-    line-height: 1;}
-    
+    padding-top: 20px;
+    line-height: 1; }
   .header__form {
     display: flex;
     flex-direction: column;
@@ -83,10 +82,3 @@
     padding-top: 10px;
     color: white;
     font-weight: bold; }
-    .bar{
-      display: none;
-      color: white;
-      font-size: 25px;
-      cursor: pointer;
-      padding: 10px 0px;
-  }
